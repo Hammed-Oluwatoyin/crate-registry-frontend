@@ -1,11 +1,16 @@
 use yew::prelude::*;
 
+mod pages;
+mod components;
+
 #[function_component(App)]
 fn app() -> Html {
-    html!{
-        <p class= "text-3xl font-bold"> {"Hello World "}</p>
+    html! {
+    
+        <pages::login::Login />
     }
 }
+
 
 
 fn main () {

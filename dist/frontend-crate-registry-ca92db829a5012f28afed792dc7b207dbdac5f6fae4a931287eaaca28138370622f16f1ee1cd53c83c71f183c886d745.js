@@ -597,12 +597,12 @@ function __wbg_get_imports() {
     imports.wbg.__wbindgen_throw = function(arg0, arg1) {
         throw new Error(getStringFromWasm0(arg0, arg1));
     };
-    imports.wbg.__wbindgen_closure_wrapper2781 = function(arg0, arg1, arg2) {
-        const ret = makeMutClosure(arg0, arg1, 222, __wbg_adapter_18);
+    imports.wbg.__wbindgen_closure_wrapper3055 = function(arg0, arg1, arg2) {
+        const ret = makeMutClosure(arg0, arg1, 288, __wbg_adapter_18);
         return addHeapObject(ret);
     };
-    imports.wbg.__wbindgen_closure_wrapper2949 = function(arg0, arg1, arg2) {
-        const ret = makeMutClosure(arg0, arg1, 237, __wbg_adapter_21);
+    imports.wbg.__wbindgen_closure_wrapper3234 = function(arg0, arg1, arg2) {
+        const ret = makeMutClosure(arg0, arg1, 303, __wbg_adapter_21);
         return addHeapObject(ret);
     };
 
@@ -644,7 +644,7 @@ async function __wbg_init(input) {
     if (wasm !== undefined) return wasm;
 
     if (typeof input === 'undefined') {
-        input = new URL('frontend-crate-registry-aa68193bfde176aadf888d3f779e006fc205998b6aca8e4ac0c2f7d96ac50bf6f4a034085de260da73d69a9621e037c9_bg.wasm', import.meta.url);
+        input = new URL('frontend-crate-registry-ca92db829a5012f28afed792dc7b207dbdac5f6fae4a931287eaaca28138370622f16f1ee1cd53c83c71f183c886d745_bg.wasm', import.meta.url);
     }
     const imports = __wbg_get_imports();
 
